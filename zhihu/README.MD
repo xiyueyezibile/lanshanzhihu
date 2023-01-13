@@ -13,7 +13,7 @@
 
 #### [	项目部署服务器地址](http://zhihu.madeindz.work/)
 
-#### 		[Github仓库地址](http://zhihu.madeindz.work/)
+#### 		[Github仓库地址]([lanshanzhihu/zhihu at master · xiyueyezibile/lanshanzhihu (github.com)](https://github.com/xiyueyezibile/lanshanzhihu/tree/master/zhihu))
 
 #### 	[接口文档地址](https://console-docs.apipost.cn/preview/648a7969b340d643/bd974949c5b66514)
 
@@ -125,4 +125,5 @@
 ##### 没有实现页面下滑懒加载
 
 ##### 文本编辑器没有自己封装
+
 
