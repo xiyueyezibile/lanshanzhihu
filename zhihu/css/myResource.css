@@ -1,0 +1,236 @@
+input {
+  border: 1px solid #ebebeb;
+}
+.myResourceBody {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  border-radius: 4px;
+}
+.myResourceBodyTop {
+  width: 100%;
+  height: 240px;
+  position: relative;
+}
+.myResourceBodyTop div {
+  cursor: pointer;
+  width: 168px;
+  height: 168px;
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  left: 30px;
+  border: 3px solid #fff;
+  border-radius: 6px;
+}
+.myResourceBodyTop div:nth-child(1) {
+  z-index: 3;
+  border: 0;
+  color: #f6f6f6;
+  top: 202px;
+  left: 32px;
+  line-height: 168px;
+  text-align: center;
+  background-color: #121212;
+  opacity: 0.5;
+  display: none;
+}
+.myResourceBodyTop div img {
+  width: 168px;
+  height: 168px;
+  border-radius: 4px;
+}
+.myResourceBodyBotton {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-color: #fff;
+}
+.myResourceBodyBotton ul {
+  position: absolute;
+  right: 0;
+}
+.myResourceBodyBotton ul li {
+  width: 764px;
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+}
+.myResourceBodyBotton ul li:first-child {
+  display: flex;
+  border: 0;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.myResourceBodyBotton ul li:first-child div {
+  height: 100px;
+}
+.myResourceBodyBotton ul li:first-child form div {
+  width: 200px;
+  height: 64px;
+}
+.myResourceBodyBotton ul li:first-child div a:nth-child(2) {
+  width: 20px;
+  margin-left: 10px;
+  height: 20px;
+  color: #175199;
+}
+.myResourceUsername {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.myResourceReturn a {
+  display: flex;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.myResourceReturn div {
+  width: 24px;
+}
+.myResourceBodyBotton ul li:nth-child(2) div {
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+h3 {
+  font-size: 18px;
+  color:#444444;
+}
+.myResourceBodyBotton ul li:nth-child(3) div {
+  width: 100px;
+  margin-top: 40px;
+  height: 100px;
+  margin-right: 100px;
+}
+.myResourceBodyBotton ul li:nth-child(4) div {
+  width: 100px;
+  margin-top: 40px;
+  margin-right: 100px;
+  height: 100px;
+}
+.myResourceChange {
+  width: 60px;
+  height: 20px;
+  margin-top: 40px;
+  color: #175199;
+}
+/* 响应样式 */
+.myResourceUsernameHidden {
+  display: flex;
+  height: 100px;
+}
+.myResourceUsernameHidden  div {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+#myResourceUsername {
+  border: 1px solid #ebebeb;
+  width: 398px;
+  height: 24px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+#myResourceUsername:focus {
+  border: 1px solid #8590a6;
+}
+.myResourceProtect {
+  width: 62px;
+  height: 34px;
+  background-color: #056de8;
+  color: #ffffff;
+  border: 1px solid #8590a6;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.myResourceProtect:hover {
+  background-color: #0461cf;
+}
+.myResourceCancel {
+  width: 62px;
+  height: 34px;
+  color: #8590a6;
+  border: 1px solid #8590a6;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.myResourceCancel:hover {
+  background-color: #f8f8fa;
+}
+.myResourceUsernameHidden {
+  display: flex;
+  display: none;
+}
+.myResourceGenderForm {
+  display: none;
+}
+.myResourceGenderForm div {
+  width: 100px;
+  height: 40px!important;
+}
+#myResourcejianjie {
+  border: 2px solid #f9f9f9;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #f6f6f6;
+}
+#myResourcejianjie:focus {
+  background-color: #ffffff;
+}
+.myResourcejianjieForm {
+  display: none;
+}
+.myResourcemimaForm {
+  position: relative;
+  display: none;
+}
+#myResourcepassword {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+#myResourcepassword:focus {
+  border: 1px solid #8590a6;
+}
+#myResourcenewpassword {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+#myResourcenewpassword:focus {
+  border: 1px solid #8590a6;
+}
+#myResourceCode {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+#myResourceCode:focus {
+  border: 1px solid #8590a6;
+}
+#myResourcemimaFormdiv {
+  height: 120px;
+}
+#myResourceGetcode {
+  width: 100px;
+  height: 30px;
+  background-color: #056de8;
+  color: #ffffff;
+  top: 120px;
+  left: 210px;
+  position: absolute;
+  border-radius: 4px;
+}
+#myResourceGetcode:hover {
+  background-color: #0461cf;
+}
+#myResourceimg {
+  display: none;
+}

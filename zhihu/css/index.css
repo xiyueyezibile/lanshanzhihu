@@ -1,0 +1,595 @@
+/* 背景图片 */
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(184, 229, 248);
+  background-size: cover;
+  background-image: url(https://static.zhihu.com/heifetz/assets/sign_bg.47eec442.png);
+  background-repeat: no-repeat;
+  overflow: auto;
+  font-size: 15px;
+  color: #121212;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+}
+
+/* logo部分 */
+.logo {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.logo img {
+  width: 128px;
+  height: 81px;
+  margin-bottom: 24px;
+}
+.logo div {
+  width: 128px;
+  height: 81px;
+  margin: 0 auto;
+}
+/* 身体部分 */
+.main {
+  display: flex;
+  width: 733px;
+  height: 517px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+/* 左侧二维码部分 */
+.leftmain {
+  width: 332px;
+  height: 100%;
+}
+.leftmainTop {
+  width: 100%;
+  height: 400px;
+  padding-top: 98px;
+  text-align: center;
+}
+.leftmainTop div:nth-child(1) {
+  color: #444444;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.leftmainTop div:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  color: #444444;
+  font-size: 14px;
+  line-height: 20px;
+}
+.leftmainTop div:nth-child(3) {
+  border-radius: 6px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 150px;
+  border: 1px solid #ebebeb;
+  padding: 8px;
+  
+}
+.leftmainTop div:nth-child(4) {
+  margin-top: 24px;
+  color: #444444;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.leftmainBottom {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding-left: 20px;
+  margin: 26px 0 22px;
+  align-items: center;
+}
+.leftmainBottom div {
+  width: 100%;
+  flex: 1;
+}
+.leftmainBottom button {
+  text-align: center;
+  border: 1px solid #EBEBEB;
+  padding: 4px 10px;
+  border-radius:29px;
+    font-size:12px;
+    color: #444444;
+    line-height: 19px;
+    display: inline-block;
+}
+.leftmainBottom button:hover {
+  background-color: rgb(246, 246, 246);
+}
+.leftmainBottom a {
+  text-align: center;
+  padding: 4px 10px;
+    border: 1px solid #EBEBEB;
+    border-radius: 29px;
+    font-size: 12px;
+    color: #444444;
+    line-height: 19px;
+    display: inline-block;
+}
+.leftmainBottom a:hover {
+  background-color: rgb(246, 246, 246);
+}
+/* 右侧登录部分 */
+.rightmain {
+  width: 401px;
+  height: 100%;
+  border-left: 1px solid #ebebeb;
+  position: relative;
+}
+.direction2 {
+  top: 380px;
+  left: 278px;
+}
+.direction1 {
+  top: 177px;
+  left: 278px;
+}
+.duanxin {
+  font-size: 14px;
+  color: rgb(5, 132, 238);
+  position: absolute;
+}
+.duanxin:hover {
+  color: rgb(118, 131, 155);
+}
+.change {
+  display: flex;
+}
+.bottomborderblue {
+  border-bottom:4px solid rgb(5, 109, 232) ;
+}
+.yanzhengma {
+  width: 80px;
+  height: 49px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 46px;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+.colorblack {
+  color: #121212;
+}
+.mima {
+  width: 64px;
+  height: 49px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 46px;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+.register {
+  width: 35px;
+  height: 49px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 46px;
+  margin-right: 24px;
+  margin-top: 16px;
+}
+#loginform {
+  width: 352px;
+  height: 318px;
+  margin: 0 auto;
+}
+#Id {
+  display: none;
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  margin-top: 30px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+#password {
+  display: none;
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.areabox {
+  margin-top: 30px;
+  height: 48px;
+  flex: 1;
+  border-bottom: 1px solid #ebebeb;
+}
+.areabox span {
+  border-left: 1px solid #ebebeb;
+    height: 22px;
+    margin: 0 12px;
+    width: 1px;
+}
+.area {
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 14px;
+  color: #76839b;
+  border-bottom: 1px solid #ebebeb;
+}
+.yanzhengphone {
+  display: flex;
+}
+.registerphone {
+  display: none;
+}
+.registerareabox {
+  margin-top: 30px;
+  height: 48px;
+  flex: 1;
+  border-bottom: 1px solid #ebebeb;
+}
+.registerareabox span {
+  border-left: 1px solid #ebebeb;
+    height: 22px;
+    margin: 0 12px;
+    width: 1px;
+}
+.registerarea {
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 14px;
+  color: #76839b;
+  border-bottom: 1px solid #ebebeb;
+}
+.username {
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  display: none;
+}
+#registerpassword {
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  display: none;
+}
+#email {
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  display: none;
+}
+#registerphone {
+  flex: 2;
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 30px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  border-bottom: 1px solid #ebebeb;
+}
+#yanzhengphone {
+  flex: 2;
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 30px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  border-bottom: 1px solid #ebebeb;
+}
+#registerma {
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  display: none;
+}
+#yanzhengma {
+  padding-left: 0;
+  right: auto!important;
+  text-align: left;
+  width: 100%;
+  line-height: 24px;
+  font-size: 14px;
+  margin-top: 20px;
+  height: 48px;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.hai {
+  display: none;
+  color: rgb(5, 132, 238);
+}
+.wang {
+  display: none;
+}
+.logindown {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.logindown a:nth-child(1) {
+  color: rgb(5, 109, 236);
+}
+.logindown a:nth-child(2) {
+  color: rgb(68, 68, 68);
+}
+.logindown a:hover {
+  color: rgb(118, 131, 155);
+}
+#login {
+  background: none;
+  background-color: rgb(5, 109, 232);
+  height: 36px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid rgb(5, 109, 232);
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 16px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+#loginOR {
+  background: none;
+  background-color: rgb(5, 109, 232);
+  height: 36px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid rgb(5, 109, 232);
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 16px;
+  text-align: center;
+  color: #fff;
+}
+#register {
+  background: none;
+  background-color: rgb(5, 109, 232);
+  height: 36px;
+  margin-top: 30px;
+  width: 100%;
+  border: 1px solid rgb(5, 109, 232);
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0 16px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+.line {
+  display: flex;
+    margin: 0 24px 12px;
+}
+.line div:nth-child(1) {
+  border-top: 1px solid;
+    border-color: #EBEBEB;
+    width: 124px;
+}
+.line div:nth-child(2) {
+  color: #999999;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: -7px;
+    width: 72px;
+    overflow: hidden;
+    line-height: 17px;
+}
+.line div:nth-child(3) {
+  border-top: 1px solid;
+    border-color: #EBEBEB;
+    width: 124px;
+}
+.otherlogin {
+  width: 400px;
+  height: 60px;
+}
+.otherlogin span {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  width: 204px;
+  height: 36px;
+  margin: 20px auto;
+}
+.otherlogin span button {
+  height: 36px;
+  background-color: none;
+  background-color: rgb(246, 246, 246);
+  justify-content: center;
+  width: 36px;
+  border-radius: 50%;
+}
+.statement {
+  width: 352px;
+  height: 318px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 19px;
+  color: rgb(166, 153, 179);
+}
+.statement a {
+  color: rgb(166, 153, 179);
+}
+
+
+
+/*底部制作*/
+footer {
+  width: 100%;
+  padding-bottom: 20px;
+  text-shadow: 0 1px 2px #999;
+  color: #fff;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 40px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer div:nth-child(1) a::after {
+  content: " · ";
+  width: 10px;
+  height: 21px;
+  display: inline-block;
+  white-space: pre;
+}
+footer div:nth-child(1) a:nth-child(8):after {
+  content: "";
+}
+footer div:nth-child(2) a::after {
+  content: " · ";
+  width: 10px;
+  height: 21px;
+  display: inline-block;
+  white-space: pre;
+}
+footer div:nth-child(2) a:nth-child(7)::after {
+  content: "";
+}
+footer div:nth-child(2) span::after {
+  content: " · ";
+  width: 10px;
+  height: 21px;
+  display: inline-block;
+  white-space: pre;
+}
+footer div:nth-child(3) a::after {
+  content: " · ";
+  width: 10px;
+  height: 21px;
+  display: inline-block;
+  white-space: pre;
+}
+footer div:nth-child(3) a:nth-child(6):after {
+  content: "";
+}
+footer div:nth-child(3) span::after {
+  content: " · ";
+  width: 10px;
+  height: 21px;
+  display: inline-block;
+  white-space: pre;
+}
+footer div:nth-child(4) img {
+  width:80px;
+  height:38px;
+  margin-top: 20px;
+}
+
+
+/* 响应部分 */
+.alreadyphone {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  color: red;
+  top: 244px;
+  left: 290px;
+  font-size: 14px;
+  display: none;
+}
+.falseyanzhengma {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  color: red;
+  display: none;
+}
+.falseyanzhengmaposition1 {
+  top: 175px;
+  left: 200px;
+}
+.falseyanzhengmaposition2 {
+  top: 378px;
+  left: 200px;
+}
+.noemail {
+  position: absolute;
+  color: red;
+  top: 106px;
+  left: 170px;
+  font-size: 14px;
+  display: none;
+}
+.nophone {
+  position: absolute;
+  color: red;
+  top: 106px;
+  left: 170px;
+  font-size: 14px;
+  display: none;
+}
+.nomima {
+  position: absolute;
+  color: red;
+  top: 176px;
+  left: 170px;
+  font-size: 14px;
+  display: none;
+}
+.alreadyusername {
+  position: absolute;
+  color: red;
+  font-size: 14px;
+  left: 170px;
+  top: 90px;
+  display: none;
+}

@@ -1,0 +1,395 @@
+body {
+  position: relative;
+}
+/* 顶部模块 */
+.issueTop {
+  width: 100%;
+  height: 160px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+}
+.issueTopInner {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.issueTopInnerTop {
+  width: 100%;
+  height: 53px;
+  position: relative;
+}
+.issueguanzhu {
+  padding-top: 10px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #121228;
+}
+.issueguanzhu > div a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #121228;
+}
+.issueguanzhu > div a:hover {
+  color: #175199;
+}
+.issueguanzhu > div {
+  width: 100%;
+  height: 53px;
+  text-align: center;
+}
+.issueguanzhu > div div {
+  font-size: 14px;
+  font-weight: normal;
+  width: 100%;
+  height: 25px;
+  color: #8590a6;
+}
+.issueguanzhu div {
+  text-align: center;
+}
+.issueguanzhu > div:first-child {
+  border-right: 1px solid #ebebeb;
+}
+.issueTopInnerCenter {
+  width: 100%;
+  height: 53px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #121212;
+  overflow: auto;
+}
+.issueTopInnerCenter div {
+  width: 100%;
+  font-size: 15px;
+  font-weight: normal;
+  overflow: auto;
+}
+.issueTopInnerBottom {
+  width: 100%;
+  height: 53px;
+}
+.issueTopInnerBottom button:nth-child(1) {
+  margin-top: 10px;
+  width: 96px;
+  height: 34px;
+  color: #ffffff;
+  background-color: #056de8;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.issueTopInnerBottom button:nth-child(1):hover {
+  background-color: #0461cf;
+}
+.issueTopInnerBottom button:nth-child(2) {
+  margin-top: 10px;
+  width: 96px;
+  height: 34px;
+  color: #056de8;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #056de8;
+  margin-right: 5px;
+}
+.issueTopInnerBottom button:nth-child(2):hover {
+  background-color: #f0f6fe;
+}
+.issueTopInnerBottom button:nth-child(3) {
+  margin-top: 10px;
+  width: 96px;
+  height: 34px;
+  color: #8590a6;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #8590a6;
+}
+.issueTopInnerBottom button:nth-child(3):hover {
+  background-color: #f8f8fa;
+}
+/* 底部制作 */
+.issueBottom {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.issueBottomLeft {
+  border-radius: 4px;
+  width: 694px;
+  margin-right: 10px;
+}
+.issueBottomRight {
+  width: 296px;
+}
+.issueBottomLeftTop {
+  width: 100%;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.issueBottomLeftTopLeft {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 600;
+}
+.issueBottomLeftTopRight {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.issueBottomRightTop {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+}
+.issueBottomRightTop div:nth-child(1) {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  border-bottom: 1px solid #f6f6f6;
+  font-size: 15px;
+  font-weight: 600;
+}
+.issueBottomRightTop div:nth-child(2) {
+  width: 100%;
+  height: 250px;
+}
+.issueBottomLeftBottom {
+  width: 100%;
+}
+.issueBottomLeftBottom ul {
+  width: 100%;
+}
+.issueBottomLeftBottom ul > li {
+  color: #616161;
+  padding-left: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: 1px solid #f0f2f7;
+}
+.issueBottomLeftBottom ul > li img {
+  width: 50px;
+  height: 50px;
+}
+.issueBottomLeftBottom ul > li div a {
+  color: #121212;
+  font-weight: 600;
+}
+.issueA {
+  width: 100px;
+  margin-left: 20px;
+}
+/* 编辑器部分 */
+.bianjiqi {
+  display: none;
+  margin-top: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 1000px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  margin-bottom: 10px;
+}
+.bianjiqiTop {
+  width: 100%;
+  height: 50px;
+}
+.bianjiqiTop button {
+  margin: 0 5px;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.bianjiqiTop button:hover {
+  background-color: #f6f6f6;
+}
+.bianjiqiTop button:nth-child(9) {
+  background-color: #056de8;
+  color: #ffffff;
+}
+.bianjiqiTop button:nth-child(9):hover {
+  background-color: #0461cf;
+}
+.bianjiqiBottom {
+  width: 100%;
+  height: 950px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
+}
+.bianjiqiBottom ul li {
+  list-style: disc;
+}
+.bianjiqiBottom ol li {
+  list-style: decimal;
+}
+/* 响应部分 */
+.issueblack {
+  display: none;
+  background-color: #121212;
+  width: 100vw;
+  height: 120vh;
+  z-index: 15;
+  top: -60px;
+  opacity: 0.5;
+  position: fixed;
+}
+.issueblackComments {
+  display: none;
+  position: relative;
+  position: fixed;
+  top: calc(50vh - 350px);
+  left: calc(50vw - 300px);
+  width: 600px;
+  height: 700px;
+  opacity: 1!important;
+  background-color: #ffffff;
+  z-index: 16;
+  border-radius: 4px;
+}
+.issueblackCancel {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -40px;
+  background-color: #121212;
+  opacity: 0.5;
+}
+.issueblackComment {
+  overflow: auto;
+  width: 100%;
+  height: 600px;
+}
+.issueblackComment ul li {
+  width: 100%;
+  height: 50px;
+  line-height: 20px;
+  padding-left: 20px;
+  color: #616161;
+}
+.issueblackComment ul li div a {
+  font-weight: 600;
+  color: #121212;
+}
+.issueblackMyComment {
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  border-top: 1px solid #ebebeb;
+  width: 100%;
+  height: 100px;
+}
+#issueblackMyComment {
+  padding-top: 10px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#issueblackMySend {
+  width: 80px;
+  height: 30px;
+  margin-left: 500px;
+  background-color: #056de8;
+  color: #ffffff;
+  border-radius: 4px;
+}
+#issueblackMySend:hover {
+  background-color: #0461cf;
+}
+/* 收藏模块 */
+.issueshoucang {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  background-color: #ffffff;
+  border-radius: 4px;
+  position: fixed;
+  top: calc(50vh - 300px);
+  left: calc(50vw - 300px);
+  z-index: 15;
+  display: none;
+}
+.issueshoucangreturn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #121212;
+  opacity: 0.5;
+  right: -40px;
+}
+.issueshoucangTop {
+  width: 400px;
+  height: 100px;
+  margin: 50px auto;
+  text-align: center;
+}
+.issueshoucangTop div:nth-child(1) {
+  font-weight: 600;
+  font-size: 30px;
+}
+.issueshoucangTop div:nth-child(2) {
+  color: #9590ae;
+}
+.issueshoucangUL {
+  width: 100%;
+  height: 400px;
+  overflow: auto;
+}
+.issueshoucangUL li {
+  display: flex;
+  height: 100px;
+  line-height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+.issueshoucangUL li > div {
+  font-weight: 600;
+  font-size: 20px;
+  width: 200px;
+}
+.issueshoucangUL li > button {
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #056de8;
+}
+.issueshoucangUL li > button:hover {
+  background-color: #0461cf;
+}
+/* 赞同模块 */
+.zantonganswer {
+  width: 70px;
+  margin-right: 5px;
+  border-radius: 4px;
+  color: #4aacf3;
+  background-color: #e6f0fd;
+}
+.zantonganswer:hover {
+  background-color: #dae9fc;
+}
+.alreadyzantonganswer {
+  display: none;
+  width: 70px;
+  margin-right: 5px;
+  border-radius: 4px;
+  background-color: #056de8;
+  color: #ffffff;
+}

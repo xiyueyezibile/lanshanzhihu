@@ -1,0 +1,63 @@
+.writeariticleBody {
+  width: 100%;
+  margin-top: 60px;
+}
+/* 编辑器部分 */
+.bianjiqi {
+  /* display: none; */
+  margin-top: 10px;
+  width: 1000px;
+  margin: 0 auto;
+  height: 1080px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  margin-bottom: 10px;
+}
+.bianjiqiTop {
+  width: 100%;
+  height: 50px;
+}
+.bianjiqiTop button {
+  margin: 0 5px;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.bianjiqiTop button:hover {
+  background-color: #f6f6f6;
+}
+.bianjiqiTop button:nth-child(9) {
+  background-color: #056de8;
+  color: #ffffff;
+}
+.bianjiqiTop button:nth-child(9):hover {
+  background-color: #0461cf;
+}
+.bianjiqiBottom {
+  width: 100%;
+  height: 950px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto;
+}
+.bianjiqiBottom ul li {
+  list-style: disc;
+}
+.bianjiqiBottom ol li {
+  list-style: decimal;
+}
+.bianjiqiCenter {
+  width: 100%;
+  height: 80px;
+}
+.bianjiqiCenter textarea {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 45px;
+  font-size: 30px;
+  font-weight: 700;
+}

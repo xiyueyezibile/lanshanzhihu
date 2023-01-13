@@ -1,0 +1,76 @@
+.red {
+  color: red;
+}
+.searchBody {
+  width: 1000px;
+  margin: 60px auto;
+  display: flex;
+}
+.searchLeft {
+  width: 694px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+}
+.searchLeftTop {
+  width: 100%;
+  height: 50px;
+  padding-left: 20px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.searchLeftBottom ul li {
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.searchLeftBottom ul li div:nth-child(1) {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.searchLeftBottom ul li div:nth-child(1) a {
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #121212;
+}
+.searchLeftBottom ul li div:nth-child(1) a:hover {
+  color: #175199;
+}
+.searchLeftBottom ul li div:nth-child(2) {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.searchLeftBottom ul li div:nth-child(2) a:hover {
+  color: #175199;
+}
+.searchRight {
+  width: 296px;
+}
+.searchRightTop {
+  width: 100%;
+  height: 126px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+}
+.searchRightTop div:nth-child(1) {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  padding-left: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+.searchRightTop div:nth-child(2) {
+  width: 100%;
+  height: 76px;
+}

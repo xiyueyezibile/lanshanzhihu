@@ -1,0 +1,94 @@
+.shoucangBody {
+  width: 1000px;
+  margin: 60px auto;
+  display: flex
+}
+.shoucangBodyLeft {
+  width: 694px;
+  height: 1000px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.shoucangBodyLeftTop {
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  border-radius: 4px;
+  padding-left: 20px;
+}
+.shoucangTitle {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  font-weight: 600;
+  font-size: 30px;
+}
+.shoucangMessage {
+  width: 100%;
+  height: 50px;
+}
+.shoucangBodyLeftBottom {
+  width: 100%;
+  margin-top: 10px;
+}
+.shoucangBodyLeftBottomTop {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  font-weight: 600;
+  padding-left: 20px;
+}
+.shoucangBodyRight {
+  width: 286px;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+  border-radius: 4px;
+}
+.shoucangBodyRightTop {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  padding-left: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.shoucangBodyRightBottom ul li {
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+.shoucangBodyRightBottom ul li a {
+  font-weight: 600;
+  color: #3366a5;
+}
+.shoucangBodyLeftBottomBottom {
+  color: #646464;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px hsl(0deg 0% 7% / 10%);
+}
+.shoucangBodyLeftBottomBottom ul {
+  width: 100%;
+  height: 500px;
+}
+.shoucangBodyLeftBottomBottom ul li {
+  padding-left: 20px;
+  width: 100%;
+  height: 100px;
+}
+.shoucangBodyLeftBottomBottom ul li div {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+.shoucangBodyLeftBottomBottom ul li div a {
+  font-weight: 600;
+  color: #121212;
+}
+.shoucangBodyLeftBottomBottom ul li div a:hover {
+  color: #164f95;
+}

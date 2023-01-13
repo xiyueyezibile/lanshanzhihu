@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv=“Content-Security-Policy” content=“upgrade-insecure-requests”/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>知乎 - 有问题，就会有答案</title>
+  <link rel="shortcut icon" href="img/zhihu.ico" type="image/x-icon">
+  <!-- 初始化 -->
+  <link rel="stylesheet" href="./css/base.css">
+  <!-- login自身css -->
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="body">
+    <div class="logo">
+        <div><img src="https://pic2.zhimg.com/80/v2-f6b1f64a098b891b4ea1e3104b5b71f6_720w.png" alt="logo"></div>
+    </div>
+    <div class="main">
+      <div class="leftmain">
+        <div class="leftmainTop">
+          <div>打开知乎App</div>
+          <div>在「我的页」左上角打开扫一扫</div>
+          <div>二维码区域</div>
+          <div>其他扫码方式：微信</div>
+        </div>
+        <div class="leftmainBottom">
+            <div><button>下载知乎App</button></div>
+            <div><a href="javascript:;">开通机构号</a></div>
+            <div><button>无障碍模式</button></div>
+        </div>
+      </div>
+      <div class="rightmain">
+        <div class="alreadyphone">手机号已存在</div>
+        <div class="noemail">邮箱不存在</div>
+        <div class="nophone">手机号不存在</div>
+        <div class="nomima">密码错误</div>
+        <div class="alreadyusername">用户名重复</div>
+        <div class="falseyanzhengma falseyanzhengmaposition1">验证码错误</div>
+        <button class="duanxin direction1">获取短信验证码</button>
+        <form id="loginform">
+          <div class="change">
+            <div class="yanzhengma bottomborderblue"><a class="colorblack" href="javascript:;">验证码登录</a></div>
+            <div class="mima"><a href="javascript:;">密码登录</a></div>
+            <div class="register"><a href="javascript:;">注册</a></div>
+          </div>
+          <input type="text" name="id" id="Id" placeholder="手机号或邮箱">
+          <input type="password" name="password" id="password" placeholder="密码">
+          <div class="yanzhengphone">
+            <div class="areabox">
+              <button class="area" type="button">中国 +86&nbsp;&nbsp;<svg width="1.2em" height="1.2em" viewBox="0 0 24 24" class="ZDI ZDI--ArrowUpDown24 Select-arrow" fill="currentColor"><path fill-rule="evenodd" d="M12.53 3.47a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 0 0 1.06 1.06L12 5.06l4.47 4.47a.75.75 0 1 0 1.06-1.06l-5-5Zm-5 11a.75.75 0 0 0-1.06 1.06l5 5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 1 0-1.06-1.06L12 18.94l-4.47-4.47Z" clip-rule="evenodd"></path></svg></button>
+              <span></span>
+            </div>
+              <input type="text" id="yanzhengphone" placeholder="请输入手机号">
+          </div>
+          <input type="text" id="yanzhengma" placeholder="请输入验证码">
+          <div class="username">
+            <input type="text" id="username" placeholder="请输入用户名">
+          </div>
+          <input type="text" id="email" placeholder="请输入邮箱（qq.com）">
+          <div class="registerphone">
+            <div class="registerareabox">
+              <button class="registerarea" type="button">中国 +86&nbsp;&nbsp;<svg width="1.2em" height="1.2em" viewBox="0 0 24 24" class="ZDI ZDI--ArrowUpDown24 Select-arrow" fill="currentColor"><path fill-rule="evenodd" d="M12.53 3.47a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 0 0 1.06 1.06L12 5.06l4.47 4.47a.75.75 0 1 0 1.06-1.06l-5-5Zm-5 11a.75.75 0 0 0-1.06 1.06l5 5a.75.75 0 0 0 1.06 0l5-5a.75.75 0 1 0-1.06-1.06L12 18.94l-4.47-4.47Z" clip-rule="evenodd"></path></svg></button>
+              <span></span>
+            </div>
+              <input type="text" id="registerphone" placeholder="请输入手机号">
+          </div>
+          <input type="password" id="registerpassword" placeholder="请输入密码">
+          <input type="text" id="registerma" placeholder="请输入验证码">
+          <div class="logindown">
+            <span class="kong" ></span>
+            <a class="yu" href="javascript:;">获取语言验证码</a>
+            <a class="hai" href="javascript:;">海外手机号登录</a>
+            <a class="wang" href="javascript:;">忘记密码</a>
+          </div>
+            <button id="login">登录</button>
+            <button id="loginOR">登录</button>
+            <button id="register">注册</button>
+        </form>
+        <div class="line">
+          <div></div>
+          <div>其他方式登录</div>
+          <div></div>
+        </div>
+        <div class="otherlogin">
+          <span>
+            <button><svg t="1672112537520" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6587" width="24" height="24"><path d="M1024 619.52c0-143.36-138.24-256-307.2-256s-307.2 112.64-307.2 256 138.24 256 307.2 256c30.72 0 61.44-5.12 92.16-10.24l97.28 51.2-25.6-76.8c87.04-51.2 143.36-128 143.36-220.16z m-414.72-40.96c-30.72 0-51.2-20.48-51.2-51.2s20.48-51.2 51.2-51.2 51.2 20.48 51.2 51.2c0 25.6-25.6 51.2-51.2 51.2z m209.92 0c-30.72 0-51.2-20.48-51.2-51.2s20.48-51.2 51.2-51.2 51.2 20.48 51.2 51.2c0 25.6-25.6 51.2-51.2 51.2z" fill="#1afa29" p-id="6588"></path><path d="M358.4 609.28c0-158.72 153.6-286.72 348.16-286.72h15.36c-40.96-133.12-179.2-235.52-353.28-235.52-204.8 0-368.64 138.24-368.64 307.2 0 107.52 66.56 204.8 168.96 256l-30.72 92.16L256 686.08c35.84 10.24 71.68 15.36 112.64 15.36h10.24c-15.36-30.72-20.48-61.44-20.48-92.16z m138.24-414.72c35.84 0 66.56 30.72 66.56 66.56s-30.72 66.56-66.56 66.56C460.8 322.56 430.08 291.84 430.08 256S460.8 194.56 496.64 194.56zM245.76 322.56c-35.84 0-61.44-30.72-61.44-66.56s30.72-66.56 66.56-66.56 61.44 30.72 61.44 66.56-30.72 66.56-66.56 66.56z" fill="#1afa29" p-id="6589"></path></svg></button>
+            <button><svg t="1672112669756" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8496" width="24" height="24"><path d="M666.122449 909.061224c-10.44898 0-21.420408-1.044898-31.869388-2.612244-39.183673-4.702041-74.710204-23.510204-100.832653-53.289796-13.583673 5.22449-28.212245 5.22449-41.795918 0-21.420408 28.212245-61.64898 48.065306-108.669388 53.289796-66.35102 7.314286-138.44898-11.493878-144.718367-55.379592-5.22449-34.481633 37.093878-61.126531 81.502041-75.755102-25.6-28.212245-43.363265-63.738776-51.2-101.355102l-0.522449 0.522449c-25.077551 31.346939-41.795918 50.155102-61.126531 50.155102-2.089796 0-4.179592-0.522449-6.269388-1.044898-7.314286-2.612245-13.061224-8.881633-17.240816-18.808164-16.195918-34.481633-9.404082-100.310204 15.15102-150.465306 0 0 0-0.522449 0.522449-0.522449 12.538776-22.465306 27.689796-43.363265 45.453061-62.171428-6.269388-11.493878-10.44898-24.032653-12.016326-37.093878v-3.134694c0.522449-19.330612 10.44898-37.093878 26.644898-47.542857-10.971429-73.142857 9.926531-147.330612 58.514286-203.232653 49.110204-56.946939 120.163265-88.816327 194.873469-86.204081h4.702041c65.306122 0 129.567347 26.122449 177.110204 72.097959 49.110204 47.542857 76.8 112.326531 77.844898 180.767347v7.314285c0.522449 9.926531 0 19.330612-1.044898 29.257143 14.106122 8.881633 21.420408 20.37551 21.420408 48.065306 0 13.583673-1.044898 27.689796-9.926531 36.04898 13.061224 17.763265 28.734694 42.840816 41.27347 62.693877l2.612245 4.179592c20.37551 32.391837 23.510204 74.187755 22.987755 96.130613 0 17.240816-2.089796 58.514286-18.285714 70.530612-3.657143 2.612245-7.314286 3.657143-12.016327 3.657143h-4.179592c-26.122449 0-41.273469-23.510204-57.991837-48.587755l-1.567347-2.089796c-8.881633 36.571429-26.122449 71.053061-50.677551 99.265306 27.167347 9.404082 83.069388 31.346939 75.755103 73.142857-5.746939 35.526531-55.902041 62.171429-114.416327 62.171428z m-388.702041-63.738775z m250.253061-11.493878z m276.375511-140.016326z m-47.020409-235.102041z" fill="#7BD4EF" p-id="8497"></path></svg></button>
+            <button><svg t="1672112717850" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9452" width="24" height="24"><path d="M676.16 232.48s113.28-12 161.44 58.24 27.36 158.56 27.36 158.56a21.92 21.92 0 0 0 22.56 26.08h11.2A30.4 30.4 0 0 0 928 449.12s26.08-138.56-54.4-215.68c-62.72-60.32-148.64-66.88-183.04-66.88h-15.2a27.04 27.04 0 0 0-26.4 26.88v13.12a25.6 25.6 0 0 0 27.2 25.92zM453.12 758.08c79.04-16 132.48-81.92 119.52-148.64-11.2-57.44-67.84-96-133.76-96a163.52 163.52 0 0 0-32 3.2c-79.04 16-132.48 81.92-119.52 148.64s86.88 108.16 165.76 92.8z m2.24-171.68A24.64 24.64 0 1 1 432 611.04a24.48 24.48 0 0 1 23.36-24.64zM368 624.96c24.32-11.36 51.04-5.6 59.52 12.96s-3.52 42.72-27.52 54.08a60.96 60.96 0 0 1-25.12 5.76 36 36 0 0 1-34.4-18.88c-8.96-18.4 3.68-42.56 27.52-53.92z" fill="#F56467" p-id="9453"></path><path d="M467.52 857.44c208 0 374.4-110.24 374.4-246.4 0-114.88-141.76-114.88-141.76-122.4s70.72-74.08 0-115.68c-42.24-24.96-105.6-12.16-148.8 0a330.24 330.24 0 0 1-47.04 14.4c55.68-97.12-23.68-128-64-128-96 0-348.64 214.88-348.64 350.88s168.16 247.2 375.84 247.2z m-34.4-392.64c132.64-18.72 250.24 37.28 262.56 124.8s-85.28 173.76-218.08 192a365.28 365.28 0 0 1-50.72 3.52c-110.72 0-200.96-52.16-211.68-128-12.32-87.52 85.28-173.76 217.92-192.32z" fill="#F56467" p-id="9454"></path><path d="M780.64 444.16h16a21.44 21.44 0 0 0 20.64-17.44s18.88-73.12-24.96-113.12a111.04 111.04 0 0 0-75.84-28.16 108.32 108.32 0 0 0-25.28 2.56 21.12 21.12 0 0 0-17.44 20.16v6.88a16 16 0 0 0 17.92 16.8s48-6.56 71.36 21.6 5.12 73.76 5.12 73.76a12.32 12.32 0 0 0 12.48 16.96z" fill="#F56467" p-id="9455"></path></svg></button>
+          </span>
+        </div>
+        <div class="statement">
+          未注册手机验证后自动登录，注册即代表同意
+          <a href="https://zhihu.madeindz.work/">《知乎协议》</a>
+          <a href="https://zhihu.madeindz.work/">《隐私保护指引》</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <a href="https://zhihu.madeindz.work/">知乎专栏</a><a href="https://zhihu.madeindz.work/">圆桌</a><a href="https://zhihu.madeindz.work/">发现</a><a href="https://zhihu.madeindz.work/">移动应用</a><a href="https://zhihu.madeindz.work/">联系我们</a><a href="https://zhihu.madeindz.work/">来知乎工作</a><a href="https://zhihu.madeindz.work/">注册机构号</a><a href="https://zhihu.madeindz.work/">Investor Relations</a>
+      </div>
+      <div>
+        <span>
+          © 
+        </span>
+        <a href="https://zhihu.madeindz.work/">京 ICP 证 xxxxxxx</a><a href="https://zhihu.madeindz.work/">京 ICP 备 xxxxxxxx 号 - 1</a><a href="https://zhihu.madeindz.work/"> 京 ICP 备 xxxxxxx 号 - 1</a><a href="https://zhihu.madeindz.work/">京网文[2022]xxxxxx 号</a><a href="https://zhihu.madeindz.work/">出版物经营许可证</a><a href="https://zhihu.madeindz.work/">xxxxxxxxxxx备案（京）xxx信息备字（2022）第xxxx号</a>
+      </div>
+      <div>
+        <a href="https://zhihu.madeindz.work/">侵权举报</a><a href="https://zhihu.madeindz.work/">网上有害信息举报专区</a><a href="https://zhihu.madeindz.work/">儿童色情信息举报专区</a><a href="https://zhihu.madeindz.work/">互联网算法推荐举报专区</a>
+        <span>违法和不良信息举报：010-82716601</span>
+        <a href="https://zhihu.madeindz.work/">举报邮箱：xxxx@zhihu.com</a>
+      </div>
+      <div>
+        <img src="https://pica.zhimg.com/80/v2-ccdb7828c12afff31a27e51593d23260_720w.png" alt="本站提供适老化无障碍服务">
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
+  </div>
+</body>
+</html>
