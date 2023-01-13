@@ -11,11 +11,15 @@
 - 前端 - 潘麒麟
 - 后端 - 邓卓
 
-#### [	项目部署服务器地址](http://zhihu.madeindz.work/)
+#### [	前端项目部署服务器地址](http://zhihu.madeindz.work/)
 
-#### 		[Github仓库地址]([lanshanzhihu/zhihu at master · xiyueyezibile/lanshanzhihu (github.com)](https://github.com/xiyueyezibile/lanshanzhihu/tree/master/zhihu))
+#### 	[后端部署地址](https://gogo.madeindz.work/)
 
-#### 	[接口文档地址](https://console-docs.apipost.cn/preview/648a7969b340d643/bd974949c5b66514)
+#### 			[前端Github仓库地址]([lanshanzhihu/zhihu at master · xiyueyezibile/lanshanzhihu (github.com)](https://github.com/xiyueyezibile/lanshanzhihu/tree/master/zhihu))
+
+#### 	[后端Github仓库地址](https://github.com/Nihilism0/LanShan-zhihu)
+
+#### 		[接口文档地址](https://console-docs.apipost.cn/preview/648a7969b340d643/bd974949c5b66514)
 
 ### 项目上线时间
 
